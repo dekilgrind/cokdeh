@@ -56,9 +56,9 @@ ki3MID = ki3.profile.mid
 ki4MID = ki4.profile.mid
 
 Bots = [nadyaMID,kiMID,ki2MID,ki3MID,ki4MID]
-creator = ["u14f64e139a3817afaabe27d237afb36b","u92e4326146a0bf296ca15846aa2a25f6"]
-Owner = ["u14f64e139a3817afaabe27d237afb36b"]
-admin = ["u14f64e139a3817afaabe27d237afb36b"]
+creator = ["",""]
+Owner = [""]
+admin = [""]
 
 nadyaProfile = nadya.getProfile()
 kiProfile = ki.getProfile()
@@ -139,7 +139,7 @@ def sendMessageWithMention(to, mid):
         
 def helpmessage():
     helpMessage = "╔═══════════════" + "\n" + \
-                  "╠♥ ✿✿✿ NADYA_TJ ✿✿✿ ♥" + "\n" + \
+                  "╠♥ ✿✿✿ DEKIL SANGE ✿✿✿ ♥" + "\n" + \
                   "║" + "\n" + \
                   "╠══✪〘 Help Message 〙✪══" + "\n" + \
                   "║" + "\n" + \
@@ -237,7 +237,7 @@ def helpmessage():
                   "╠➥ JoinAll" + "\n" + \
                   "╠➥ ByeAll" + "\n" + \
                   "║" + "\n" + \
-                  "╚═〘 Credits By: ©Nadya_TJ™  〙"
+                  "╚═〘 Credits By: ©DEKIL SANGE™  〙"
     return helpMessage
     
 def helptexttospeech():
@@ -296,7 +296,7 @@ def helptexttospeech():
                          "╠ vi : Vietnamese" + "\n" + \
                          "╠ cy : Welsh" + "\n" + \
                          "╚══〘 Jangan Typo 〙" + "\n" + "\n\n" + \
-                          "Contoh : say-en Nadya Cantik"
+                          "Contoh : say-en DEKIL NGACENG"
     return helpTextToSpeech
     
 def helptranslate():
@@ -408,7 +408,7 @@ def helptranslate():
                        "╠ fil : Filipino" + "\n" + \
                        "╠ he : Hebrew" + "\n" + \
                        "╚══〘 Jangan Typo 〙" + "\n" + "\n\n" + \
-                         "Contoh : tr-en Nadya Cantik"
+                         "Contoh : tr-en DEKIL NGACENG"
     return helpTranslate
 #==============================================================================#
 def backupData():
@@ -573,7 +573,7 @@ def lineBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     nadya.sendMessage(to, str(helpMessage))
-                    nadya.sendContact(to, "u14f64e139a3817afaabe27d237afb36b")
+                    nadya.sendContact(to, "")
                 elif text.lower() == 'texttospeech':
                     helpTextToSpeech = helptexttospeech()
                     nadya.sendMessage(to, str(helpTextToSpeech))
