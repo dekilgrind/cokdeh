@@ -18,18 +18,18 @@ Cara Install Self Bot :
 - Ketik -> `pip3 install googletrans`
 - Ketik -> `git clone https://github.com/Nadyatjia/BotLinePython3`
 - Ketik -> `cd BotLinePython3`
-- Ketik -> `python3 Nadyasb.py`
+- Ketik -> `python3 dekilcok.py`
 
 Cara Menjalankan Bot Kembali :
 ------
 - Ketik -> `cd LineBotPython3`
-- Ketik -> `python3 Nadyasb.py`
+- Ketik -> `python3 dekilcok.py`
 
 
-Credit By@ Nadya Sutjiadi.
+Credit By@ DEKIL SANGE
 ------
-- `Follow My Instagram : nadya.tjia`
-- `Add My ID LINE : nad_nad. (pake titik)`
+- `Follow My Instagram : ga ada`
+- `Add My ID LINE : minumsususapi
 
 Thx To :
 ------
