@@ -139,7 +139,7 @@ def sendMessageWithMention(to, mid):
         
 def helpmessage():
     helpMessage = "╔═══════════════" + "\n" + \
-                  "╠♥ ✿✿✿ DEKIL SANGE ✿✿✿ ♥" + "\n" + \
+                  "╠😬 👿👿👿 DEKIL SANGE 👿👿👿 😬" + "\n" + \
                   "║" + "\n" + \
                   "╠══✪〘 Help Message 〙✪══" + "\n" + \
                   "║" + "\n" + \
@@ -237,7 +237,7 @@ def helpmessage():
                   "╠➥ JoinAll" + "\n" + \
                   "╠➥ ByeAll" + "\n" + \
                   "║" + "\n" + \
-                  "╚═〘 Credits By: ©DEKIL SANGE™  〙"
+                  "╚═〘 Credits By: ©DEKIL SANGE 2019™  〙"
     return helpMessage
     
 def helptexttospeech():
