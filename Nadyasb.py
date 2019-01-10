@@ -76,7 +76,7 @@ def sendMessageWithMention(to, mid):
         
 def helpmessage():
     helpMessage = "╔═══════════════" + "\n" + \
-                  "╠♥ ✿✿✿ NADYA_TJ ✿✿✿ ♥" + "\n" + \
+                  "╠♥ ✿✿✿ DEKIL SANGE ✿✿✿ ♥" + "\n" + \
                   "║" + "\n" + \
                   "╠══✪〘 Help Message 〙✪══" + "\n" + \
                   "║" + "\n" + \
@@ -151,7 +151,7 @@ def helpmessage():
                   "╠➥ SearchImage「Search」" + "\n" + \
                   "╠➥ ScreenshootWebsite「LinkUrl」" + "\n" + \
                   "║" + "\n" + \
-                  "╚═〘 Credits By: ©Nadya_TJ™  〙"
+                  "╚═〘 Credits By: ©DEKIL SANGE™  〙"
     return helpMessage
     
 def helptexttospeech():
@@ -210,7 +210,7 @@ def helptexttospeech():
                          "╠ vi : Vietnamese" + "\n" + \
                          "╠ cy : Welsh" + "\n" + \
                          "╚══[ Jangan Typo ]" + "\n" + "\n\n" + \
-                          "Contoh : say-id Nadya Cantik"
+                          "Contoh : say-id DEKIL NGACENG"
     return helpTextToSpeech
     
 def helptranslate():
@@ -322,7 +322,7 @@ def helptranslate():
                        "╠ fil : Filipino" + "\n" + \
                        "╠ he : Hebrew" + "\n" + \
                        "╚══[ Jangan Typo ]" + "\n" + "\n\n" + \
-                         "Contoh : tr-id Nadya Cantik"
+                         "Contoh : tr-id DEKIL NGACENG"
     return helpTranslate
 #==============================================================================#
 def lineBot(op):
@@ -364,7 +364,7 @@ def lineBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     nadya.sendMessage(to, str(helpMessage))
-                    nadya.sendContact(to, "u14f64e139a3817afaabe27d237afb36b")
+                    nadya.sendContact(to, "")
                 elif text.lower() == 'texttospeech':
                     helpTextToSpeech = helptexttospeech()
                     nadya.sendMessage(to, str(helpTextToSpeech))
