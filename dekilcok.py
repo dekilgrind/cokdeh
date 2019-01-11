@@ -740,7 +740,60 @@ def lineBot(op):
                         ret_ += "\n╚══[ Total {} Groups ]".format(str(len(groups)))
                         nadya.sendMessage(to, str(ret_))
 #==============================================================================#          
-                elif text.lower() == 'mention':
+                elif text.lower() == 'tagall':
+                                group = client.getGroup(msg.to)
+                                nama = [contact.mid for contact in group.members]
+                                nm1, nm2, nm3, nm4, nm5, jml = [], [], [], [], [], len(nama)
+                                if jml <= 100:
+                                    client.mention(msg.to, nama)
+                                if jml > 100 and jml < 200:
+                                    for i in range(0, 100):
+                                        nm1 += [nama[i]]
+                                    client.mention(msg.to, nm1)
+                                    for j in range(101, len(nama)):
+                                        nm2 += [nama[j]]
+                                    client.mention(msg.to, nm2)
+                                if jml > 200 and jml < 300:
+                                    for i in range(0, 100):
+                                        nm1 += [nama[i]]
+                                    client.mention(msg.to, nm1)
+                                    for j in range(101, 200):
+                                        nm2 += [nama[j]]
+                                    client.mention(msg.to, nm2)
+                                    for k in range(201, len(nama)):
+                                        nm3 += [nama[k]]
+                                    client.mention(msg.to, nm3)
+                                if jml > 300 and jml < 400:
+                                    for i in range(0, 100):
+                                        nm1 += [nama[i]]
+                                    client.mention(msg.to, nm1)
+                                    for j in range(101, 200):
+                                        nm2 += [nama[j]]
+                                    client.mention(msg.to, nm2)
+                                    for k in range(201, len(nama)):
+                                        nm3 += [nama[k]]
+                                    client.mention(msg.to, nm3)
+                                    for l in range(301, len(nama)):
+                                        nm4 += [nama[l]]
+                                    client.mention(msg.to, nm4)
+                                if jml > 400 and jml < 501:
+                                    for i in range(0, 100):
+                                        nm1 += [nama[i]]
+                                    client.mention(msg.to, nm1)
+                                    for j in range(101, 200):
+                                        nm2 += [nama[j]]
+                                    client.mention(msg.to, nm2)
+                                    for k in range(201, len(nama)):
+                                        nm3 += [nama[k]]
+                                    client.mention(msg.to, nm3)
+                                    for l in range(301, len(nama)):
+                                        nm4 += [nama[l]]
+                                    client.mention(msg.to, nm4)
+                                    for m in range(401, len(nama)):
+                                        nm5 += [nama[m]]
+                                    client.mention(msg.to, nm5)             
+                                client.sendText(receiver, "Members :"+str(jml))
+	elif text.lower() == 'mention':
                     group = nadya.getGroup(msg.to)
                     nama = [contact.mid for contact in group.members]
                     k = len(nama)//100
